@@ -169,19 +169,19 @@
 	}
 
 	.coreshift-link {
-	  color: #005CBF;
-	  font-weight: 600;
-	  text-decoration: none;
-	  animation: blink 1s infinite;
+	    color: #005CBF;
+	    font-weight: 600;
+	    text-decoration: none;
+	    animation: coreshift-pulse 2.5s ease-in-out infinite;
 	}
 	
-	@keyframes blink {
-	  0%, 50% {
-	    opacity: 1;
-	  }
-	  51%, 100% {
-	    opacity: 0.2;
-	  }
+	@keyframes coreshift-pulse {
+	    0%, 100% {
+	        color: #005CBF;
+	    }
+	    50% {
+	        color: #000000;
+	    }
 	}
 	
 </style>
